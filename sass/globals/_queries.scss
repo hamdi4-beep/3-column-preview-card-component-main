@@ -1,0 +1,17 @@
+@media (min-width: 426px) {
+    main {
+        flex-direction: row !important;
+        height: 100vh;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: flex-start;
+
+        p {
+            margin-bottom: auto;
+        }
+    }
+}
