@@ -72,9 +72,15 @@ article p {
 }
 article button {
   padding: 0.8em 1.4em;
-  border: none;
+  border-color: transparent;
   border-radius: 50px;
   margin-top: 1.3em;
+  cursor: pointer;
+}
+article button:hover {
+  background-color: transparent;
+  border: 1px solid;
+  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */

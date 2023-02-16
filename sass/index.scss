@@ -49,8 +49,15 @@ article {
 
     button {
         padding: .8em 1.4em;
-        border: none;
+        border-color: transparent;
         border-radius: 50px;
         margin-top: 1.3em;
+        cursor: pointer;
+
+        &:hover {
+            background-color: transparent;
+            border: 1px solid;
+            color: white;
+        }
     }
 }
